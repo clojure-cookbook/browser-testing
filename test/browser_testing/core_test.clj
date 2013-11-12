@@ -3,7 +3,7 @@
   (:require [clj-webdriver.taxi :as t]
             [clj-webdriver.firefox :as ff]))
 
-# A simple fixture that sets up test driver
+;; A simple fixture that sets up test driver
 (defn selenium-fixture
   [& browsers]
   (fn [test]
@@ -13,7 +13,7 @@
       (test)
       (t/quit))))
 
-(use-fixtures :once (selenium-fixture :firefox :chrome))
+(use-fixtures :once (selenium-fixture :firefox ))
 
 (deftest ^:browser test-clojure
   (t/to "http://clojure.org")
