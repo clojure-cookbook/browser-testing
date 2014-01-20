@@ -1,15 +1,20 @@
 # browser-testing
 
-A repo created to demonstrate browser testing using Clojure, as part of the [Clojure Cookbook](http://clojure-cookbook.com/).
+A sample repo demonstrating browser testing using Clojure. For full
+write up and usage, see the accompanying recipe,
+["Running Browser-based Tests"](https://github.com/clojure-cookbook/clojure-cookbook/blob/master/testing/browser-testing/browser-testing.asciidoc#running-browser-based-tests),
+a part of the [Clojure Cookbook](http://clojure-cookbook.com/).
 
-For full write up and usage, see [this detailed article](https://github.com/clojure-cookbook/clojure-cookbook/blob/master/testing/browser-testing/browser-testing.asciidoc#running-browser-based-tests).
+## Caveats
 
-## Bugs
+This sample requires **Leiningen version 2.3+**. If you do not have a
+compatible version, tests will not run correctly.
 
-If for some reason, the tests won't run, please make sure that you have **the latest version of [Leiningen](http://leiningen.org/)** before reporting the issue.
+Please ensure you have a compatible version of Leiningen before
+reporting any issues.
 
 ## License
 
-Copyright © 2013-2014 Ryan Neufeld
+Copyright © 2013-2014 O'Reilly Media, Ryan Neufeld
 
 Distributed under the Eclipse Public License, the same as Clojure.
